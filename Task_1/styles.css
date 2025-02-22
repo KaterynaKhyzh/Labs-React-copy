@@ -1,0 +1,675 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Стилі для хедеру */
+header {
+  background-color: #2c3e50;
+  color: white;
+  padding: 20px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  font-family: "Poppins", sans-serif;
+  margin-left: 160px;
+}
+
+.logo a {
+  text-decoration: none;
+  color: inherit;
+  font-weight: bold;
+}
+
+a:hover {
+  opacity: 0.8;
+}
+
+a:active {
+  opacity: 0.6;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  gap: 18px;
+  margin-right: 160px;
+  padding: 0;
+  align-items: center;
+}
+
+ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+/* Стилі для кнопки Contact Us */
+.contact-link {
+  display: inline-block;
+  padding: 16px 48px;
+  border: 2px solid #d1d1d1;
+  border-radius: 41px;
+  color: #ffffff;
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+/* Ефект при наведенні на кнопку */
+.contact-link:hover {
+  background-color: rgba(0, 0, 255, 0.388);
+  color: rgb(255, 255, 255);
+  border-color: #fff;
+}
+
+/* Hero секція */
+.hero-container {
+  color: white;
+  background-color: #2c3e50;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 160px;
+  width: 100%;
+  gap: 85px;
+}
+
+.hero {
+  width: 518px;
+  height: 600px;
+  padding: 24px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.hero h1 {
+  margin-top: 45px;
+  font-size: 46px;
+  margin-bottom: 24px;
+}
+
+.hero p {
+  margin-bottom: 48px;
+}
+
+.buttons {
+  display: flex;
+  gap: 16px;
+}
+
+.hero button {
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.hero button:first-child {
+  background-color: rgba(0, 0, 255, 0.388);
+  color: white;
+  border-radius: 41px;
+}
+
+.hero button:first-child:hover {
+  background-color: rgba(18, 18, 109, 0.388);
+}
+
+.hero button:last-child {
+  background-color: transparent;
+  color: white;
+}
+
+.hero button:last-child:hover {
+  color: rgba(0, 0, 255, 0.388);
+}
+
+.hero button:last-child::after {
+  content: " →";
+  font-size: 18px;
+  margin-left: 8px;
+}
+.hero-image {
+  width: 638px;
+  height: 600px;
+  object-fit: cover;
+}
+
+/* Як ми працюємо */
+.how-we-work {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+  margin-left: 165px;
+  margin-right: 225px;
+  align-items: flex-start;
+}
+
+.get-in-touch {
+  width: 30%;
+}
+
+.get-in-touch h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.get-in-touch p {
+  margin-bottom: 20px;
+}
+
+.get-in-touch-link {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.work-steps {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  width: 65%;
+}
+
+.step {
+  padding: 20px;
+}
+
+.step-number {
+  background-color: #ffc107;
+  color: white;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.step h3 {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+/* Запит home */
+.send-inquiry {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+  background-color: #2c3e50;
+  color: white;
+}
+
+.send-inquiry-left h1 {
+  font-size: 40px;
+}
+
+.send-inquiry-left {
+  margin-left: 165px;
+  margin-top: 80px;
+  width: 50%;
+  padding-right: 50px;
+}
+
+.send-inquiry-right {
+  margin-right: 225px;
+  width: 60%;
+  background-color: #22222257;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.send-inquiry-description {
+  color: #e4e3e3;
+  margin-bottom: 20px;
+}
+
+.form-input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #404040;
+  background-color: #2c3e502e;
+  color: white;
+  box-sizing: border-box;
+  border-radius: 31px;
+}
+
+.submit-button {
+  background-color: #ffc107;
+  color: black;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom: 10px;
+  border-radius: 41px;
+}
+
+.get-in-touch-link {
+  color: #ffc107;
+  text-decoration: none;
+}
+
+/* Відгуки */
+.testimonials {
+  margin-left: 165px;
+  margin-right: 225px;
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+}
+
+.testimonials-left {
+  width: 30%;
+}
+
+.testimonials-right {
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+}
+
+.testimonials-quote {
+  font-style: italic;
+  margin-bottom: 20px;
+}
+
+.testimonials-author {
+  font-size: small;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.author-image {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.author-info p {
+  margin: 0;
+}
+
+.testimonials-controls {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.control-button {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: none;
+  background-color: #ddd;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.control-button.next-button {
+  background-color: rgba(0, 0, 255, 0.564);
+  color: white;
+}
+
+/* Контактна сторінка */
+.contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0;
+  background-color: #f9f9f9;
+}
+
+.contact-content {
+  width: 80%;
+  max-width: 800px;
+  background-color: white;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact h1 {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.contact p {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #666;
+}
+
+.contact-form .form-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.contact-form .form-group {
+  width: 48%;
+}
+
+.contact-form label {
+  display: block;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form select,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+.contact-form textarea {
+  height: 150px;
+}
+
+.send-message-button {
+  background-color: #333;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 41px;
+  cursor: pointer;
+  font-size: 16px;
+  width: 100%;
+}
+
+.send-message-button:hover {
+  background-color: #555;
+}
+
+/* Сторінка About Us */
+.about-us {
+  padding: 50px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.about-us-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 30px;
+}
+
+.about-us-left {
+  width: 45%;
+}
+
+.about-us-image {
+  width: 45%;
+}
+
+.about-us-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.about-us h3 {
+  margin-top: 26px;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.about-us h2 {
+  font-size: 32px;
+  margin-bottom: 30px;
+}
+
+.about-us p {
+  font-size: 18px;
+  color: #666;
+  line-height: 1.6;
+}
+
+.about-us-goals {
+  display: flex;
+  justify-content: space-between;
+}
+
+.goal {
+  width: 48%;
+  padding: 30px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #72879aba;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.goal:nth-child(2) {
+  background-color: #dfdda6;
+}
+
+.goal h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.goal p {
+  font-size: 16px;
+  color: #666;
+  line-height: 1.6;
+}
+
+.process {
+  padding: 80px 0;
+  background-color: #f9f9f9;
+}
+
+.process h2 {
+  text-align: center;
+  font-size: 46px;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+
+.process-steps {
+  text-align: left;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+  margin-left: 50px;
+}
+
+.dot {
+  width: 20px;
+  height: 20px;
+  background-color: rgba(0, 0, 255, 0.573);
+  border-radius: 50%;
+  box-shadow: 0 0 5px rgba(0, 0, 255, 0.5);
+  margin-bottom: 26px;
+}
+.mission-vision {
+  padding: 50px;
+  text-align: center;
+}
+
+.mission-vision-container {
+  display: flex;
+  justify-content: space-around;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.mission,
+.vision {
+  width: 45%;
+  padding: 20px;
+  text-align: left;
+}
+.mission h3,
+.vision h3 {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.mission h2,
+.vision h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.mission p,
+.vision p {
+  font-size: 16px;
+  line-height: 25.6px;
+  color: #666;
+}
+.mission-image,
+.vision-image {
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+  display: block;
+}
+
+/* Футер */
+footer {
+  background-color: #2c3e50;
+  color: white;
+  padding: 40px 0;
+  position: relative;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 160px;
+  align-items: flex-start;
+  margin-bottom: 0px;
+}
+
+.left-column,
+.right-column {
+  width: 45%;
+  text-align: left;
+}
+
+.left-column .logo {
+  font-size: 24px;
+  font-weight: bold;
+  margin-left: 0;
+  margin-bottom: 15px;
+}
+
+.right-column h2 {
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.social-icons {
+  margin-top: 20px;
+}
+
+.social-icons a {
+  margin-right: 15px;
+  color: white;
+  text-decoration: none;
+}
+
+.social-icons a:hover {
+  color: #ccc;
+}
+
+.contact-details {
+  background-color: rgba(0, 0, 255, 0.388);
+  padding: 16px 37px;
+  margin-bottom: 20px;
+  width: 512px;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 160px;
+  box-sizing: border-box;
+}
+
+.contact-left,
+.contact-right {
+  font-size: 12px;
+  color: white;
+  flex-grow: 1;
+}
+
+.contact-left h3,
+.contact-right h3 {
+  margin-bottom: 5px;
+}
+
+.footer-bottom {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: white;
+  color: black;
+  padding: 20px 160px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-bottom .copyright {
+  font-size: 14px;
+}
+
+.footer-bottom .footer-links a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #2c3e50;
+}
+
+.footer-bottom .footer-links a:hover {
+  color: #3498db;
+}
+
+/* Анімації плавного прокручування */
+.animate-on-scroll {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+.animate-on-scroll.active {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/*Помилки у формі Contact Us*/
+.success-message,
+.error-message {
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  display: none;
+}
+
+.success-message {
+  background-color: #d4edda;
+  color: #155724;
+}
+
+.error-message {
+  background-color: #f8d7da;
+  color: #721c24;
+}

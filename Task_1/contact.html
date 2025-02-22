@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us - WebDev</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo"><a href="index.html">WebDev</a></div>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About us</a></li>
+          <li><a href="contact.html" class="contact-link">Contact us</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="contact">
+      <div class="contact-content">
+        <h1>Contact Us</h1>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore.
+        </p>
+
+        <form class="contact-form" id="contactForm">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input
+                type="text"
+                id="name"
+                placeholder="Enter your name"
+                required
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input
+                type="email"
+                id="email"
+                placeholder="Enter your Email"
+                required
+              />
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="subject">Subject</label>
+              <input type="text" id="subject" placeholder="Provide context" />
+            </div>
+
+            <div class="form-group">
+              <label for="select-subject">Subject</label>
+              <select id="select-subject">
+                <option value="">Select Subject</option>
+                <option value="option1">Option 1</option>
+                <option value="option2">Option 2</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea
+              id="message"
+              placeholder="Write your question here"
+            ></textarea>
+          </div>
+
+          <button
+            type="submit"
+            class="send-message-button"
+            id="sendMessageButton"
+          >
+            Send Message
+          </button>
+        </form>
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer-content">
+        <div class="left-column">
+          <div class="logo">WebDev</div>
+          <p>
+            We are always open to discuss your project and improve your online
+            presence.
+          </p>
+        </div>
+        <div class="right-column">
+          <h2>Let's Talk!</h2>
+          <p>
+            We are always open to discuss your project and improve your online
+            presence.
+          </p>
+          <div class="social-icons">
+            <a href="#" class="facebook-icon">Facebook</a>
+            <a href="#" class="instagram-icon">Instagram</a>
+            <a href="#" class="linkedin-icon">LinkedIn</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="contact-details">
+        <div class="contact-left">
+          <h3>Email me at</h3>
+          <p>contact@website.com</p>
+        </div>
+        <div class="contact-right">
+          <h3>Call us</h3>
+          <p>0927 6277 28525</p>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div class="copyright">
+          <p>Copyright 2021, Finsweet.com</p>
+        </div>
+        <div class="footer-links">
+          <a href="index.html">Home</a>
+          <a href="about.html">About us</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
