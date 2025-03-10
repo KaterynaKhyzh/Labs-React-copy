@@ -1,0 +1,3 @@
+[submodule "task-2"]
+	path = task-2
+	url = https://github.com/KaterynaKhyzh/React_Labs.git
