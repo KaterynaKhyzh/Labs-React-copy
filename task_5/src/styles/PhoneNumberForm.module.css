@@ -1,0 +1,145 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #ffffff;
+}
+
+.formWrapper {
+  background-color: white;
+  padding: 2rem;
+  width: 24rem;
+  border: none;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.description {
+  color: #6b7280;
+  font-size: 0.8rem;
+  margin-bottom: 1.5rem;
+}
+
+.progressCircles {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+  align-items: center;
+}
+
+.progressCircle {
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  background-color: transparent;
+  border: 1px solid #d1d5db;
+  margin: 0 0.5rem;
+}
+
+.progressCircleActive {
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  background-color: #3b82f6;
+  border: none;
+  margin: 0 0.5rem;
+}
+
+.progressLine {
+  width: 2rem;
+  height: 1px;
+  background-color: #d1d5db;
+  margin: 0 0.25rem;
+}
+
+.privacyMessage {
+  background-color: #e5e7eb;
+  padding: 1rem;
+  border-radius: 0.375rem;
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.privacyMessage p {
+  color: #6b7280;
+  margin-left: 10px;
+  font-size: small;
+  margin-right: 10px;
+}
+
+.closeButton {
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  color: #6b7280;
+  cursor: pointer;
+  margin-left: auto;
+}
+
+.label {
+  display: block;
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: #000000;
+  margin-bottom: 1rem;
+}
+
+.inputContainer {
+  border-radius: 0.375rem;
+  border: 1px solid #d1d5db;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.inputWrapper {
+  display: flex;
+  border-radius: 0.375rem;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  margin-bottom: 1rem;
+}
+
+.select {
+  padding: 0.2rem 1rem;
+  background-color: #f3f4f6;
+  border: 1px solid #d1d5db;
+  border-radius: 0.375rem 0 0 0.375rem;
+  outline: none;
+  width: 30%;
+}
+
+.input {
+  flex: 1;
+  padding: 0.5rem 1rem;
+  border: 1px solid #d1d5db;
+  border-radius: 0 0.375rem 0.375rem 0;
+  outline: none;
+}
+
+.button {
+  width: 30%;
+  padding: 0.5rem 1rem;
+  background-color: #ffffff;
+  color: rgb(14, 13, 13);
+  font-weight: 700;
+  border-radius: 0.3rem;
+  outline: none;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #2563eb;
+  color: #ffffff;
+}
+
+.error {
+  color: red;
+  font-size: 0.8rem;
+  margin-top: 0.1rem;
+}

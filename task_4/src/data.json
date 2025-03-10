@@ -1,0 +1,194 @@
+[
+  {
+    "id": 1,
+    "title": "UX review presentations",
+    "date": "2023-10-25",
+    "category": "Design",
+    "image": "blog1.jpg",
+    "content": "How do you create compelling presentations that wow your colleagues and impress your managers?",
+    "author": {
+      "name": "Olivia Rhye",
+      "image": "person1.jpg"
+    }
+  },
+  {
+    "id": 2,
+    "title": "Migrating to Linear 101",
+    "date": "2023-10-25",
+    "category": "Product",
+    "image": "blog2.jpg",
+    "content": "Linear helps streamline software projects, sprints, tasks, and bug tracking. Here's how to get started.",
+    "author": {
+      "name": "Phoenix Baker",
+      "image": "person2.jpg"
+    }
+  },
+  {
+    "id": 3,
+    "title": "Building your API stack",
+    "date": "2023-10-25",
+    "category": "Software Engineering",
+    "image": "blog3.jpg",
+    "content": "The rise of REST APIs has been met with a slew of tools for creating, testing, and managing them.",
+    "author": {
+      "name": "Lana Steiner",
+      "image": "person3.jpg"
+    }
+  },
+  {
+    "id": 4,
+    "title": "Accountability at the workplace",
+    "date": "2023-10-25",
+    "category": "Customer Success",
+    "image": "blog4.jpg",
+    "content": "The rise of REST APIs has been met with a slew of tools for creating, testing, and managing them.",
+    "author": {
+      "name": "Lana Steiner",
+      "image": "person4.jpg"
+    }
+  },
+  {
+    "id": 5,
+    "title": "Another Post",
+    "date": "2023-10-26",
+    "category": "Design",
+    "image": "blog5.jpg",
+    "content": "This is another example post.",
+    "author": {
+      "name": "Olivia Rhye",
+      "image": "person5.jpg"
+    }
+  },
+  {
+    "id": 6,
+    "title": "A Product Post",
+    "date": "2023-10-27",
+    "category": "Product",
+    "image": "blog6.jpg",
+    "content": "This is a product related post.",
+    "author": {
+      "name": "Phoenix Baker",
+      "image": "person6.jpg"
+    }
+  },
+  {
+    "id": 7,
+    "title": "Software Post",
+    "date": "2023-10-28",
+    "category": "Software Engineering",
+    "image": "blog7.jpg",
+    "content": "This is a Software related post.",
+    "author": {
+      "name": "Lana Steiner",
+      "image": "person7.jpg"
+    }
+  },
+  {
+    "id": 8,
+    "title": "Customer Post",
+    "date": "2023-10-29",
+    "category": "Customer Success",
+    "image": "blog8.jpg",
+    "content": "This is a Customer related post.",
+    "author": {
+      "name": "Lana Steiner",
+      "image": "person8.jpg"
+    }
+  },
+  {
+    "id": 9,
+    "title": "New Design Trends",
+    "date": "2023-10-30",
+    "category": "Design",
+    "image": "blog9.jpg",
+    "content": "Exploring the latest trends in UX/UI design.",
+    "author": {
+      "name": "Olivia Rhye",
+      "image": "person9.jpg"
+    }
+  },
+  {
+    "id": 10,
+    "title": "Product Launch Strategy",
+    "date": "2023-10-31",
+    "category": "Product",
+    "image": "blog10.jpg",
+    "content": "How to plan and execute a successful product launch.",
+    "author": {
+      "name": "Phoenix Baker",
+      "image": "person10.jpg"
+    }
+  },
+  {
+    "id": 11,
+    "title": "Advanced JavaScript Techniques",
+    "date": "2023-11-01",
+    "category": "Software Engineering",
+    "image": "blog11.jpg",
+    "content": "Mastering advanced JavaScript concepts for building scalable applications.",
+    "author": {
+      "name": "Lana Steiner",
+      "image": "person11.jpg"
+    }
+  },
+  {
+    "id": 12,
+    "title": "Customer Retention Strategies",
+    "date": "2023-11-02",
+    "category": "Customer Success",
+    "image": "blog12.jpg",
+    "content": "Strategies for retaining and delighting your customers.",
+    "author": {
+      "name": "Lana Steiner",
+      "image": "person12.jpg"
+    }
+  },
+  {
+    "id": 13,
+    "title": "Design Systems",
+    "date": "2023-11-03",
+    "category": "Design",
+    "image": "blog13.jpg",
+    "content": "How to create and maintain a design system.",
+    "author": {
+      "name": "Olivia Rhye",
+      "image": "person13.jpg"
+    }
+  },
+  {
+    "id": 14,
+    "title": "Product Roadmap",
+    "date": "2023-11-04",
+    "category": "Product",
+    "image": "blog14.jpg",
+    "content": "How to create a product roadmap.",
+    "author": {
+      "name": "Phoenix Baker",
+      "image": "person14.jpg"
+    }
+  },
+  {
+    "id": 15,
+    "title": "Backend Development",
+    "date": "2023-11-05",
+    "category": "Software Engineering",
+    "image": "blog15.jpg",
+    "content": "How to create a backend application.",
+    "author": {
+      "name": "Lana Steiner",
+      "image": "person15.jpg"
+    }
+  },
+  {
+    "id": 16,
+    "title": "Customer Support",
+    "date": "2023-11-06",
+    "category": "Customer Success",
+    "image": "blog16.jpg",
+    "content": "How to provide excellent customer support.",
+    "author": {
+      "name": "Lana Steiner",
+      "image": "person16.jpg"
+    }
+  }
+]
